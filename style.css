@@ -1,0 +1,94 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#keyboard{
+    width: 84%;
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgba(221, 221, 221, 0.096);
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-bottom: 5px;
+
+}
+
+.five-row{
+    align-items: center;
+
+}
+.letter{
+    width: 7%;
+    min-height: 50px;
+    border:2px solid rgba(116, 111, 111, 0.329);
+    color: rgba(0, 0, 0, 0.637);
+}
+.tab,
+.backspace{
+    width: 9%;
+}
+.capslock,
+.enter{
+    width: 11%;
+}
+
+.shift{
+    width: 13%;
+}
+
+.space{
+    width: 45%;
+}
+
+.arrows{
+    width: 6.5%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.arrow{
+    width: 100%;
+    min-height: 24px;
+    border:2px solid rgba(116, 111, 111, 0.329);
+    background-color: rgba(221, 221, 221, 0.295);
+
+}
+
+.arrow-left,
+.arrow-right{
+    width: 7%;
+    height: 24px;
+    border:2px solid rgba(116, 111, 111, 0.329);
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(221, 221, 221, 0.295);
+
+}
+.arrow-right{
+    margin-left: 5px;
+}
+
+.letter{
+    position: relative;
+    background-color: rgba(221, 221, 221, 0.295);
+}
+
+.top,
+.bottom{
+    font-size: 25px;
+}
+.top{
+    padding-left: 15px;
+}
+.bottom{
+    position: absolute;
+    left: 46px;
+    bottom: 6px;
+}
