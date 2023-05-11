@@ -2,7 +2,8 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
-#keyboard{
+#keyboard,
+#keyboard2{
     width: 84%;
     border: 2px solid #ddd;
     padding: 5px;
@@ -29,20 +30,21 @@ body{
     border:2px solid rgba(116, 111, 111, 0.329);
     color: rgba(0, 0, 0, 0.637);
 }
-.tab,
-.backspace{
+[data-key='Tab'],
+[data-key='Backspace'] {
     width: 9%;
 }
-.capslock,
-.enter{
+[data-key='CapsLock'],
+[data-key='Enter']{
     width: 11%;
 }
 
-.shift{
+[data-key='ShiftLeft'],
+[data-key='ShiftRight']{
     width: 13%;
 }
 
-.space{
+[data-key='Space']{
     width: 45%;
 }
 
